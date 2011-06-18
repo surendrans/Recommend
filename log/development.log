@@ -1,0 +1,1256 @@
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 02:46:22 +0530 2011
+
+Mysql::Error (Unknown database 'recommend'):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 02:48:39 +0530 2011
+
+SyntaxError (/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/controllers/lk_authentication_controller.rb:5: syntax error, unexpected tCONSTANT, expecting ')'
+...edIn::Client.new(0Gh5FjjpmVdIo-YW1RXzS-BuZLTLZRKt3wmKzRS8yCp...
+                              ^
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/controllers/lk_authentication_controller.rb:5: syntax error, unexpected ',', expecting kEND
+...KzRS8yCpT-S6dcpavFSGda-pA2a7g, WMnoSbl3_zkyCe3qslZD7pFX8z8i6...
+                              ^):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 02:49:21 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 0ms
+
+IndexError (index 52801 out of string):
+  app/controllers/lk_authentication_controller.rb:6:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 02:51:28 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 0ms
+
+IndexError (index 52801 out of string):
+  app/controllers/lk_authentication_controller.rb:6:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 02:55:02 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 0ms
+
+IndexError (index 52801 out of string):
+  app/controllers/lk_authentication_controller.rb:7:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 03:01:29 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 1477ms
+
+NoMethodError (undefined method `request_toekn' for #<LinkedIn::Client:0xb6d7f9cc>):
+  app/controllers/lk_authentication_controller.rb:10:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 03:01:47 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=1613a914-51da-4187-b928-b85a0fb8c86f
+Completed 302 Found in 1203ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=1613a914-51da-4187-b928-b85a0fb8c86f&oauth_verifier=12477" for 192.168.1.6 at Sat Jun 18 03:02:32 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"12477", "oauth_token"=>"1613a914-51da-4187-b928-b85a0fb8c86f"}
+Completed   in 1206ms
+
+OAuth::Problem (parameter_absent):
+  app/controllers/lk_authentication_controller.rb:17:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=1613a914-51da-4187-b928-b85a0fb8c86f&oauth_verifier=12477" for 192.168.1.6 at Sat Jun 18 03:04:09 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"12477", "oauth_token"=>"1613a914-51da-4187-b928-b85a0fb8c86f"}
+Completed   in 1414ms
+
+OAuth::Problem (parameter_absent):
+  app/controllers/lk_authentication_controller.rb:18:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=1613a914-51da-4187-b928-b85a0fb8c86f&oauth_verifier=12477" for 192.168.1.6 at Sat Jun 18 03:04:48 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"12477", "oauth_token"=>"1613a914-51da-4187-b928-b85a0fb8c86f"}
+Completed   in 1187ms
+
+OAuth::Problem (parameter_absent):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 03:05:28 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=4674795e-d70b-4755-a42b-54c0efee71aa
+Completed 302 Found in 1288ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=4674795e-d70b-4755-a42b-54c0efee71aa&oauth_verifier=83865" for 192.168.1.6 at Sat Jun 18 03:05:47 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"83865", "oauth_token"=>"4674795e-d70b-4755-a42b-54c0efee71aa"}
+Completed   in 1235ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 03:06:50 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9
+Completed 302 Found in 1219ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9&oauth_verifier=92344" for 192.168.1.6 at Sat Jun 18 03:07:06 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"92344", "oauth_token"=>"caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9"}
+Completed   in 1215ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9&oauth_verifier=92344" for 192.168.1.6 at Sat Jun 18 03:11:26 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"92344", "oauth_token"=>"caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9"}
+Completed   in 1288ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9&oauth_verifier=92344" for 192.168.1.6 at Sat Jun 18 03:14:22 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"92344", "oauth_token"=>"caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9"}
+Completed   in 1213ms
+
+OAuth::Problem (token_rejected):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9&oauth_verifier=92344" for 192.168.1.6 at Sat Jun 18 03:14:29 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"92344", "oauth_token"=>"caa9b4ca-6ca4-4257-8f71-fb6d0b17fcb9"}
+Completed   in 1194ms
+
+OAuth::Problem (token_rejected):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 03:14:34 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=e82618e6-2cd2-439b-869d-550380b6a933
+Completed 302 Found in 1228ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=e82618e6-2cd2-439b-869d-550380b6a933&oauth_verifier=54542" for 192.168.1.6 at Sat Jun 18 03:14:43 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"54542", "oauth_token"=>"e82618e6-2cd2-439b-869d-550380b6a933"}
+Completed   in 1250ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:20:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=e82618e6-2cd2-439b-869d-550380b6a933&oauth_verifier=54542" for 192.168.1.6 at Sat Jun 18 03:19:04 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"54542", "oauth_token"=>"e82618e6-2cd2-439b-869d-550380b6a933"}
+Completed   in 1257ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:18:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (60.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.7ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=e82618e6-2cd2-439b-869d-550380b6a933&oauth_verifier=54542" for 192.168.1.6 at Sat Jun 18 03:25:31 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"54542", "oauth_token"=>"e82618e6-2cd2-439b-869d-550380b6a933"}
+Completed   in 1259ms
+
+OAuth::Problem (token_rejected):
+  app/controllers/lk_authentication_controller.rb:18:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 03:27:44 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=32afbb98-07b6-4ac4-b77b-73b6180af8ac
+Completed 302 Found in 1267ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=32afbb98-07b6-4ac4-b77b-73b6180af8ac&oauth_verifier=10815" for 192.168.1.6 at Sat Jun 18 03:29:26 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"10815", "oauth_token"=>"32afbb98-07b6-4ac4-b77b-73b6180af8ac"}
+Completed   in 1253ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:18:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=32afbb98-07b6-4ac4-b77b-73b6180af8ac&oauth_verifier=10815" for 192.168.1.6 at Sat Jun 18 03:30:25 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"10815", "oauth_token"=>"32afbb98-07b6-4ac4-b77b-73b6180af8ac"}
+Completed   in 1257ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 03:43:14 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=6469ac18-a7ab-41e1-a4b7-6617c7d7057d
+Completed 302 Found in 1216ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=6469ac18-a7ab-41e1-a4b7-6617c7d7057d&oauth_verifier=20316" for 192.168.1.6 at Sat Jun 18 03:43:34 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"20316", "oauth_token"=>"6469ac18-a7ab-41e1-a4b7-6617c7d7057d"}
+Completed   in 1230ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=6469ac18-a7ab-41e1-a4b7-6617c7d7057d&oauth_verifier=20316" for 192.168.1.6 at Sat Jun 18 03:45:16 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"20316", "oauth_token"=>"6469ac18-a7ab-41e1-a4b7-6617c7d7057d"}
+Completed   in 1229ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=6469ac18-a7ab-41e1-a4b7-6617c7d7057d&oauth_verifier=20316" for 192.168.1.6 at Sat Jun 18 07:37:49 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"20316", "oauth_token"=>"6469ac18-a7ab-41e1-a4b7-6617c7d7057d"}
+Completed   in 1899ms
+
+OAuth::Problem (token_rejected):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (113.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (239.4ms)
+
+
+Started GET "/l" for 192.168.1.6 at Sat Jun 18 07:38:37 +0530 2011
+
+ActionController::RoutingError (No route matches "/l"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 07:38:40 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=8dca9116-58e4-4403-9ac8-d118bb694da8
+Completed 302 Found in 1316ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=8dca9116-58e4-4403-9ac8-d118bb694da8&oauth_verifier=98731" for 192.168.1.6 at Sat Jun 18 07:39:05 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"98731", "oauth_token"=>"8dca9116-58e4-4403-9ac8-d118bb694da8"}
+Completed   in 1269ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.6ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 07:52:42 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=9dbd6283-684f-4930-972c-0e2cbd9f22a1
+Completed 302 Found in 1263ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=9dbd6283-684f-4930-972c-0e2cbd9f22a1&oauth_verifier=55252" for 192.168.1.6 at Sat Jun 18 07:52:49 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"55252", "oauth_token"=>"9dbd6283-684f-4930-972c-0e2cbd9f22a1"}
+Completed   in 1252ms
+
+OAuth::Problem (signature_invalid):
+  app/controllers/lk_authentication_controller.rb:19:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 08:20:09 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 2ms
+
+NameError (undefined local variable or method `client' for #<LkAuthenticationController:0xb6ea1878>):
+  app/controllers/lk_authentication_controller.rb:5:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 08:21:02 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Completed   in 5478ms
+
+NameError (undefined local variable or method `client' for #<LkAuthenticationController:0xb6dd8ea0>):
+  app/controllers/lk_authentication_controller.rb:8:in `index'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 08:21:21 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=e1a902d9-18b1-4ae6-919b-39e9d844ade0
+Completed 302 Found in 1237ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=e1a902d9-18b1-4ae6-919b-39e9d844ade0&oauth_verifier=51097" for 192.168.1.6 at Sat Jun 18 08:21:30 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"51097", "oauth_token"=>"e1a902d9-18b1-4ae6-919b-39e9d844ade0"}
+Completed   in 1231ms
+
+OAuth::Problem (token_rejected):
+  app/controllers/lk_authentication_controller.rb:13:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 08:21:55 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=a06b4e8e-62d0-418a-aea3-c5fdfd487e95
+Completed 302 Found in 1247ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=a06b4e8e-62d0-418a-aea3-c5fdfd487e95&oauth_verifier=88351" for 192.168.1.6 at Sat Jun 18 08:22:01 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"88351", "oauth_token"=>"a06b4e8e-62d0-418a-aea3-c5fdfd487e95"}
+Rendered text template (0.0ms)
+Completed 200 OK in 4148ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:24:21 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (76.5ms)
+Completed 200 OK in 2805ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:30:56 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 2704ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:01 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:31:13 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 2974ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 7ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:31:41 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 08:32:19 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000/users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:32:19 +0530 2011
+
+LoadError (Expected /home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/controllers/users_controller.rb to define UsersController):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:32:44 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:34:16 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:34:17 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:34:20 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:34:23 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:34:47 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:34:49 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Completed   in 11239ms
+
+OAuth::Problem (parameter_absent):
+  app/controllers/lk_authentication_controller.rb:13:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 08:36:16 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/index" for 192.168.1.6 at Sat Jun 18 08:36:18 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a
+Completed 302 Found in 1297ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a&oauth_verifier=74862" for 192.168.1.6 at Sat Jun 18 08:36:30 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"74862", "oauth_token"=>"2a9f1fae-e9eb-41b1-bbfd-63dca216054a"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 3998ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a&oauth_verifier=74862" for 192.168.1.6 at Sat Jun 18 08:38:34 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"74862", "oauth_token"=>"2a9f1fae-e9eb-41b1-bbfd-63dca216054a"}
+Rendered lk_authentication/callback.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2663ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a&oauth_verifier=74862" for 192.168.1.6 at Sat Jun 18 08:39:13 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"74862", "oauth_token"=>"2a9f1fae-e9eb-41b1-bbfd-63dca216054a"}
+Rendered lk_authentication/callback.html.erb within layouts/application (29.3ms)
+Completed   in 2762ms
+
+ActionView::Template::Error (undefined method `each' for LinkedIn::Profile:Class):
+    1: <%= @profile.class.each do |user| %>
+    2: <%= user.inspect %>
+    3: <% end %>
+    4: <%#= @connections.inspect %>
+  app/views/lk_authentication/callback.html.erb:1:in `_app_views_lk_authentication_callback_html_erb__982401834__612950968_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (76.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (81.7ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a&oauth_verifier=74862" for 192.168.1.6 at Sat Jun 18 08:46:11 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"74862", "oauth_token"=>"2a9f1fae-e9eb-41b1-bbfd-63dca216054a"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 5064ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=2a9f1fae-e9eb-41b1-bbfd-63dca216054a&oauth_verifier=74862" for 192.168.1.6 at Sat Jun 18 08:46:55 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"74862", "oauth_token"=>"2a9f1fae-e9eb-41b1-bbfd-63dca216054a"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 12695ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/" for 192.168.1.6 at Sat Jun 18 08:47:15 +0530 2011
+
+ActionController::RoutingError (No route matches "/lk_authentication"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:47:19 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2690ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:47:56 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (1.1ms)
+Completed   in 2753ms
+
+ActionView::Template::Error (undefined method `name' for #<LinkedIn::Profile:0xb6fb27bc>):
+    1: <%= @profile.name %>
+    2: <%#= @connections.inspect %>
+  app/views/lk_authentication/callback.html.erb:1:in `_app_views_lk_authentication_callback_html_erb__982401834__612545928_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:48:11 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (48.0ms)
+Completed   in 12742ms
+
+ActionView::Template::Error (undefined method `[]' for #<LinkedIn::Profile:0xb6ea7098>):
+    1: <%= @profile["name"] %>
+    2: <%#= @connections.inspect %>
+  app/views/lk_authentication/callback.html.erb:1:in `_app_views_lk_authentication_callback_html_erb__982401834__613108938_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.1ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:48:44 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2718ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:53:20 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (99.1ms)
+Completed   in 2892ms
+
+ActionView::Template::Error (undefined local variable or method `my_profile_path' for #<#<Class:0xb7042010>:0xb7040e68>):
+    1: <%= @profile %>
+    2: <%#= @connections.inspect %>
+    3: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:3:in `_app_views_lk_authentication_callback_html_erb__982401834__612237278_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (102.6ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:53:39 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2724ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+ActionDispatch::Cookies::CookieOverflow (ActionDispatch::Cookies::CookieOverflow):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (79.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.9ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:54:09 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2715ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 08:59:43 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17041ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+ActionDispatch::Cookies::CookieOverflow (ActionDispatch::Cookies::CookieOverflow):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (83.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (88.3ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 09:00:20 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2750ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 09:00:42 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2653ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+ActionDispatch::Cookies::CookieOverflow (ActionDispatch::Cookies::CookieOverflow):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (71.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (77.3ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 09:02:06 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 2714ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+ActionDispatch::Cookies::CookieOverflow (ActionDispatch::Cookies::CookieOverflow):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.1ms)
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 09:02:15 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Rendered lk_authentication/callback.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2659ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 192.168.1.6 at Sat Jun 18 09:04:02 +0530 2011
+  Processing by LkAuthenticationController#kill_access_token_session as HTML
+Redirected to http://192.168.1.6:3000/users/login
+Completed 302 Found in 1ms
+
+
+Started GET "/users/login" for 192.168.1.6 at Sat Jun 18 09:04:02 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/index" for 192.168.1.6 at Sat Jun 18 09:04:05 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=1432f1e2-e2c9-48cd-852e-2ef8420f4abd
+Completed 302 Found in 1253ms
+
+
+Started GET "/lk_authentication/callback" for 192.168.1.6 at Sat Jun 18 09:05:06 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+Completed   in 3288ms
+
+OAuth::Problem (parameter_absent):
+  app/controllers/lk_authentication_controller.rb:15:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 18 09:05:18 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/index" for 192.168.1.6 at Sat Jun 18 09:05:20 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=dc79efb2-7c31-4b6a-8d1a-6a0d14aa96a0
+Completed 302 Found in 1270ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 18 09:05:53 +0530 2011
+  Processing by UsersController#login as HTML
+Rendered users/login.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/index" for 127.0.0.1 at Sat Jun 18 09:05:55 +0530 2011
+  Processing by LkAuthenticationController#index as HTML
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605
+Completed 302 Found in 1238ms
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:06:08 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 4016ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:10:15 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 4763ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:12:34 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (1.9ms)
+Completed   in 2716ms
+
+ActionView::Template::Error (undefined method `doc' for #<LinkedIn::Profile:0xb6eb14f8>):
+    1: <%= @profile.doc %>
+    2: <%#= @connections.inspect %>
+    3: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:1:in `_app_views_lk_authentication_callback_html_erb__982401834__613088288_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (100.1ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:12:44 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 6397ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:17:49 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+ERROR: compiling _app_views_lk_authentication_callback_html_erb__982401834__612819138_0 RAISED compile error
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:1: syntax error, unexpected '(', expecting ')'
+...put_buffer.append= ( @profile(:fields => [:positions]) );@ou...
+                              ^
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:1: syntax error, unexpected ')', expecting kEND
+...ile(:fields => [:positions]) );@output_buffer.safe_concat('
+                              ^
+Function body:           def _app_views_lk_authentication_callback_html_erb__982401834__612819138_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "lk_authentication/callback";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.append= ( @profile(:fields => [:positions]) );@output_buffer.safe_concat('
+');
+@output_buffer.append= ( link_to "show profile", my_profile_path );@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:6:in `compile'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:6:in `send_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:441:in `_run__17216706__process_action__974297417__callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/handler/webrick.rb:13:in `run'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/server.rb:217:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands/server.rb:65:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:30
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27:in `tap'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered lk_authentication/callback.html.erb within layouts/application (1.4ms)
+Completed   in 4225ms
+
+ActionView::Template::Error (compile error
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:1: syntax error, unexpected '(', expecting ')'
+...put_buffer.append= ( @profile(:fields => [:positions]) );@ou...
+                              ^
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:1: syntax error, unexpected ')', expecting kEND
+...ile(:fields => [:positions]) );@output_buffer.safe_concat('
+                              ^):
+    1: <%= @profile(:fields => [:positions]) %>
+    2: <%#= @connections.inspect %>
+    3: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:6:in `compile'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (51.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (74.8ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:18:38 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2744ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:19:04 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Completed   in 11662ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/lk_authentication_controller.rb:26:in `callback'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.5ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 09:19:25 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 7760ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:07:24 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+ERROR: compiling _app_views_lk_authentication_callback_html_erb__982401834__612817538_0 RAISED compile error
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:2: syntax error, unexpected '(', expecting ')'
+...put_buffer.append= ( @profile(:fields => [:firstname]) );@ou...
+                              ^
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:2: syntax error, unexpected ')', expecting kEND
+...ile(:fields => [:firstname]) );@output_buffer.safe_concat('
+                              ^
+Function body:           def _app_views_lk_authentication_callback_html_erb__982401834__612817538_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "lk_authentication/callback";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.append= ( @profile.inspect );@output_buffer.safe_concat('
+');@output_buffer.append= ( @profile(:fields => [:firstname]) );@output_buffer.safe_concat('
+');@output_buffer.append= ( link_to "show profile", my_profile_path );@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:6:in `compile'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:6:in `send_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:441:in `_run__17216706__process_action__974297417__callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `action'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `synchronize'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `send'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/suren/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/handler/webrick.rb:13:in `run'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.3/lib/rack/server.rb:217:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands/server.rb:65:in `start'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:30
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27:in `tap'
+/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered lk_authentication/callback.html.erb within layouts/application (0.8ms)
+Completed   in 7280ms
+
+ActionView::Template::Error (compile error
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:2: syntax error, unexpected '(', expecting ')'
+...put_buffer.append= ( @profile(:fields => [:firstname]) );@ou...
+                              ^
+/home/suren/NetBeansProjects/Tryouts/ClientRecommend/app/views/lk_authentication/callback.html.erb:2: syntax error, unexpected ')', expecting kEND
+...ile(:fields => [:firstname]) );@output_buffer.safe_concat('
+                              ^):
+    1: <%= @profile.inspect %>
+    2: <%= @profile(:fields => [:firstname]) %>
+    3: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:6:in `compile'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (69.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (75.4ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:08:27 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2729ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:09:40 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (1.4ms)
+Completed   in 2902ms
+
+ActionView::Template::Error (undefined method `xpath' for #<LinkedIn::Profile:0xb6f2b6cc>):
+    1: <%= @profile.inspect %>
+    2: <%= @profile.xpath("//person/picture-url").first.text%>
+    3: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:2:in `_app_views_lk_authentication_callback_html_erb__982401834__612826848_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (68.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (73.9ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:10:04 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2900ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:10:31 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (1.2ms)
+Completed   in 2953ms
+
+ActionView::Template::Error (undefined method `doc' for #<LinkedIn::Profile:0xb6f3387c>):
+    1: <%= @profile.inspect %>
+    2: <%= @profile.doc%>
+    3: <%#= @profile.xpath("//person/picture-url").first.text%>
+    4: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:2:in `_app_views_lk_authentication_callback_html_erb__982401834__612807318_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (76.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (82.3ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:10:48 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (6.2ms)
+Completed   in 2916ms
+
+ActionView::Template::Error (undefined method `[]' for #<LinkedIn::Profile:0xb6fc5b50>):
+    1: <%= @profile.inspect %>
+    2: <%= @profile["doc"]%>
+    3: <%#= @profile.xpath("//person/picture-url").first.text%>
+    4: <%= link_to "show profile", my_profile_path %>
+  app/views/lk_authentication/callback.html.erb:2:in `_app_views_lk_authentication_callback_html_erb__982401834__612506978_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.2ms)
+
+
+Started GET "/lk_authentication/callback?oauth_token=9e22a7ea-851f-49c2-a0f1-3623b0abf605&oauth_verifier=48921" for 127.0.0.1 at Sat Jun 18 10:12:57 +0530 2011
+  Processing by LkAuthenticationController#callback as HTML
+  Parameters: {"oauth_verifier"=>"48921", "oauth_token"=>"9e22a7ea-851f-49c2-a0f1-3623b0abf605"}
+Rendered lk_authentication/callback.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2946ms (Views: 7.3ms | ActiveRecord: 0.0ms)

@@ -1,0 +1,2 @@
+module LkAuthenticationHelper
+end
